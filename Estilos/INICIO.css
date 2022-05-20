@@ -1,0 +1,176 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.section_titulo{
+    color: black;
+    font-weight: bold;
+    font-size: 43px;
+}
+.centrar {
+    text-align: center;
+}
+
+.section__subtitulo{
+    color: darkslategrey;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body{
+    background-color: beige;
+}
+.section__subtitulo2{
+    color: rgb(2, 24, 2);
+    font-weight: bold;
+    font-size: 40px;
+}
+    
+.border{
+border: 5px solid green;
+}
+
+.rounder{
+border-radius: 30px;
+}
+
+.section__imagen{
+    text-align: center;
+}
+.section2{
+    margin: 30px;
+    padding: 15px;
+    border: 5px solid black;
+}
+
+.texto-justificado{
+    text-align: justify;
+}
+.parent{
+    text-align: center;
+}
+
+.whatsApp{
+background-color: green;
+color: white;
+text-decoration: none;
+padding: 0.5rem 1rem;
+display: inline-block;
+bottom: 2rem;
+right: 2rem;
+}
+
+.header{
+    background-color: white;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__marca{
+    width: 130px;
+    right: 32px;
+}
+.header__logo{
+height: 100px;
+width: 100px;
+}
+
+.header__menu{
+    display: none;
+}
+.nav__lista{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    gap: 16px;
+}
+.nav__enlace{
+    color: purple;
+    text-decoration: none;
+}
+
+.section3{
+    margin: 30px;
+    padding: 15px;
+    border: 5px solid black;
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+}
+.section1__enlace{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+
+}
+
+.footer{
+    background-color: #000;
+    color: #fff;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (max-width: 1024px){
+    .header{
+        flex-direction: column;
+    }
+    
+@media screen and (max-width:320px) {
+      
+    .nav{
+        display: flex ;
+        flex-direction: column;
+    }
+    .header{
+        width: auto;
+        background-color: aqua;
+    }
+    .nav__lista{
+        list-style: none;
+        flex-direction: column;
+        display: flex;
+    }
+    .section_titulo{
+     font-size: 15px;
+    }   
+    .section__subtitulo{
+     font-size: 10px;
+    }
+    .section__subtitulo2{
+     font-size: 15px;
+    }
+   
+    .flex{
+        display: flex ;
+        flex-direction: row;
+    }
+    .flex__hijo{
+        width: 50px;
+        height: 50px;
+    }
+    .flex__hijo1{
+        color: darkblue;
+        font-size: 10px;
+        justify-items: center;
+        
+    }
+    .flex__hijo2{
+        color: black;
+        font-size: 9px;
+    }
+    .flex__hijo4{
+        color: black;
+        font-size: 10px;
+    }
+    }
+    
+}

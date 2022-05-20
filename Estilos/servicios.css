@@ -1,0 +1,199 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: beige;
+}
+
+main div h2{
+    color: brown ;
+    font-size: 25px;
+}
+
+main div p{
+    font-size: 20px;
+    margin: 15px;
+    padding: 20px;
+}
+.rounded{
+    border-radius: 30px;
+
+}
+.border{
+    border: 5px solid grey;
+}
+
+.centrar{
+    text-align: center;
+}
+
+.izquierda{
+    text-align: left;
+}
+
+.derecha{
+    text-align: right;
+}
+
+.header{
+    background-color: white;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__marca{
+    width: 130px;
+    right: 32px;
+}
+.header__logo {
+height: 100px;
+width: 100px;
+}
+
+.nav__lista{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    gap: 16px;
+}
+.nav__enlace{
+    color: purple;
+    text-decoration: none;
+}
+
+.alinear-centro{
+    text-align: center;
+}
+
+.footer{
+    background-color: #000;
+    color: #fff;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.animacion{
+    font-size: 70px;
+    object-fit: cover;
+    border-radius: 50%;
+    animation-name: tracking-in-expand-fwd;
+    animation-duration: 2s;
+    animation-iteration-count: 5;
+    animation-timing-function: ease-in;
+}
+
+.tracking-in-expand-fwd {
+	-webkit-animation: tracking-in-expand-fwd 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: tracking-in-expand-fwd 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+@keyframes tracking-in-expand-fwd {
+    0% {
+      letter-spacing: -0.5em;
+      -webkit-transform: translateZ(-700px);
+              transform: translateZ(-700px);
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      -webkit-transform: translateZ(0);
+              transform: translateZ(0);
+      opacity: 1;
+    }
+  }
+
+.animacion3{
+    object-fit: cover;
+    animation-name: wobble-hor-bottom;
+    animation-duration: 2s;
+    animation-iteration-count: 3;
+    animation-timing-function: ease-in;
+}
+
+.wobble-hor-bottom {
+	-webkit-animation: wobble-hor-bottom 0.8s both;
+	        animation: wobble-hor-bottom 0.8s both;
+}
+
+@keyframes wobble-hor-bottom {
+    0%,
+    100% {
+      -webkit-transform: translateX(0%);
+              transform: translateX(0%);
+      -webkit-transform-origin: 50% 50%;
+              transform-origin: 50% 50%;
+    }
+    15% {
+      -webkit-transform: translateX(-30px) rotate(-6deg);
+              transform: translateX(-30px) rotate(-6deg);
+    }
+    30% {
+      -webkit-transform: translateX(15px) rotate(6deg);
+              transform: translateX(15px) rotate(6deg);
+    }
+    45% {
+      -webkit-transform: translateX(-15px) rotate(-3.6deg);
+              transform: translateX(-15px) rotate(-3.6deg);
+    }
+    60% {
+      -webkit-transform: translateX(9px) rotate(2.4deg);
+              transform: translateX(9px) rotate(2.4deg);
+    }
+    75% {
+      -webkit-transform: translateX(-6px) rotate(-1.2deg);
+              transform: translateX(-6px) rotate(-1.2deg);
+    }
+  }
+
+@media screen and (max-width: 1024px){
+    .header{
+        flex-direction: column;
+    }
+    
+@media screen and (max-width:320px) {
+      
+    .nav{
+        display: flex ;
+        flex-direction: column;
+    }
+    .header{
+        width: auto;
+        background-color: aqua;
+    }
+    .nav__lista{
+        list-style: none;
+        flex-direction: column;
+        display: flex;
+    }
+    main div h2{
+        color: darkgreen;
+        font-size: 15px;
+    }
+    
+    main div p{
+        font-size: 10px;
+        margin: 15px;
+        padding: 10px;
+        text-align: justify;
+    }
+    .centrar{
+        font-size: 10px;
+    }
+    .animacion{
+        font-size: 20px;
+        color: red;
+    }
+}
+    
+}

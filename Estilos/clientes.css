@@ -1,0 +1,204 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    background-color: white;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__marca{
+    width: 130px;
+    right: 32px;
+}
+.header__logo {
+height: 100px;
+width: 100px;
+}
+
+.nav__lista{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    gap: 16px;
+}
+.nav__enlace{
+    color: purple;
+    text-decoration: none;
+}
+
+.titulo {
+    text-decoration-line: underline;
+    font-size: 20px;
+    color: blue;
+    text-align: center;
+}
+
+body{
+    background-color: beige;
+}
+
+.centrar{
+    text-align: center;
+}
+.margenes{
+    word-spacing: 10px;
+    letter-spacing: normal;
+    line-height: 60px;
+    margin-top: 50px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    font-size: 30px;
+}
+
+.footer{
+    background-color: #000;
+    color: #fff;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.grid{
+    border: 2px solid #555;
+    padding: 1rem;
+    min-height: 500px;
+    max-width: 1000px;
+    margin: auto;
+
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    grid-template-columns: repeat(3,100px);
+
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+
+
+    grid-template-rows: 100px 200px 100px;
+    grid-template-rows: 25% 25% 100px;
+    grid-template-rows: 1fr 2fr 1fr;
+    grid-template-rows: 200px 200px 200px;
+
+    grid-template-areas: "ele1 ele2 ele2" "ele3 ele3 ele4" "ele5 ele6 ele4";
+
+    justify-items: stretch;
+    align-content: stretch;
+
+    justify-content: flex-start;
+    align-content: flex-start;
+
+    column-gap: 10px;
+    row-gap: 20px;
+    gap:  10px 20px;
+    gap: 20px;
+
+}
+.grid__hijo{
+    border: 2px solid orange;
+    padding: 1rem;
+    padding: 0;
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+}
+
+.grid__hijo img{
+    width: 70%;
+    height: 70%;
+    object-fit: cover;
+}
+.grid__hijo--1{
+    grid-area: ele1;
+}
+
+.grid__hijo--2{
+    grid-area: ele2;
+}
+
+.grid__hijo--3{
+    grid-area: ele3;
+}
+
+.grid__hijo--4{
+    grid-area: ele4;
+}
+
+.grid__hijo--5{
+    grid-area: ele5;
+}
+
+.grid__hijo--6{
+    grid-area: ele6;
+}
+
+@media screen and (max-width: 1023px){
+    .header{
+        flex-direction: column;
+    }
+    
+@media screen and (max-width:320px) {
+      
+    .nav{
+        display: flex ;
+        flex-direction: column;
+    }
+    .header{
+        width: auto;
+        background-color: aqua;
+    }
+    .nav__lista{
+        list-style: none;
+        flex-direction: column;
+        display: flex;
+    }
+  .titulo{
+      color: purple;
+      text-align: center;
+      font-size: 10px;
+  }
+  .grid{
+      display: grid;
+      border: 1px solid #555;
+      padding: 10px;
+      min-height: 100px;
+      max-width: 300px;
+      margin: auto;
+   
+      grid-template-columns: 15% 20% 15%;
+      grid-template-columns: repeat(3,50px);
+
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-columns: repeat(3, 1fr);
+
+      grid-template-rows: 100px 200px 100px;
+      grid-template-rows: 25% 25% 100px;
+      grid-template-rows: 1fr 2fr 1fr;
+      grid-template-rows: 150px 200px 150px;
+
+      grid-template-areas: "ele1 ele2 ele2" "ele3 ele3 ele4" "ele5 ele6 ele4";
+
+      justify-items: stretch;
+      align-content: stretch;
+
+      justify-content: flex-start;
+      align-content: flex-start;
+
+      column-gap: 10px;
+      row-gap: 15px;
+      gap:  5px 15px;
+      gap: 10px;
+  }
+}
+    
+}

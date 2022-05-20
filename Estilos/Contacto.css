@@ -1,0 +1,178 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.header{
+    background-color: white;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__marca{
+    width: 130px;
+    right: 32px;
+}
+.header__logo {
+height: 100px;
+width: 100px;
+}
+
+.nav__lista{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    gap: 16px;
+}
+.nav__enlace{
+    color: purple;
+    text-decoration: none;
+}
+
+.margenes{
+    word-spacing: 10px;
+    letter-spacing: normal;
+    line-height: 60px;
+    margin-top: 50px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    font-size: 30px;
+}
+body{
+    background-color: beige;
+}
+
+body p{
+    text-decoration-line: underline;
+    font-size: 25px;
+}
+
+body h3{
+    font-size: 25px;
+    color: red;
+}
+
+.centrar{
+    text-align: center;
+}
+
+.footer{
+    background-color: #000;
+    color: #fff;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.animacion{
+    text-align: center;
+    font-size: 25px;
+    color: red;
+    object-fit: cover;
+    animation-name: vibrate-1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.vibrate-1 {
+	-webkit-animation: vibrate-1 0.3s linear infinite both;
+	        animation: vibrate-1 0.3s linear infinite both;
+}
+
+@keyframes vibrate-1 {
+    0% {
+      -webkit-transform: translate(0);
+              transform: translate(0);
+    }
+    20% {
+      -webkit-transform: translate(-2px, 2px);
+              transform: translate(-2px, 2px);
+    }
+    40% {
+      -webkit-transform: translate(-2px, -2px);
+              transform: translate(-2px, -2px);
+    }
+    60% {
+      -webkit-transform: translate(2px, 2px);
+              transform: translate(2px, 2px);
+    }
+    80% {
+      -webkit-transform: translate(2px, -2px);
+              transform: translate(2px, -2px);
+    }
+    100% {
+      -webkit-transform: translate(0);
+              transform: translate(0);
+    }
+  }
+
+@media screen and (max-width: 1024px){
+    .header{
+        flex-direction: column;
+    }
+    
+@media screen and (max-width:320px) {
+      
+    .nav{
+        display: flex ;
+        flex-direction: column;
+    }
+    .header{
+        width: auto;
+        background-color: aqua;
+    }
+    .nav__lista{
+        list-style: none;
+        flex-direction: column;
+        display: flex;
+    }
+    body h1{
+        color: rgb(51, 6, 6);
+        font-size: 15px;
+        text-align: center;
+    }
+
+    body h2{
+        color: #000;
+        font-size: 20px;
+        text-align: center;
+    }
+    body p{
+        font-size: 25px;
+        text-align: center;
+        padding: 10px;
+    }
+    .nombrecompleto{
+        font-size: 10px;
+    }
+    .edad{
+        font-size: 10px;
+    }
+    .provincia{
+        font-size: 10px;
+    }
+    .ciudad{
+        font-size: 10px;
+    }
+    .email{
+        font-size: 10px;
+    }
+    .numero{
+        font-size: 10px;
+    }
+    .asunto{
+        font-size: 10px;
+    }
+    .mensaje{
+        font-size: 10px;
+    }  
+}
+    
+}
