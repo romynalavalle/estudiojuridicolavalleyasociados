@@ -113,12 +113,12 @@ body h3{
     }
   }
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1023px){
     .header{
         flex-direction: column;
     }
     
-@media screen and (max-width:320px) {
+@media screen and (max-width:600px) {
       
     .nav{
         display: flex ;
@@ -144,6 +144,11 @@ body h3{
         font-size: 20px;
         text-align: center;
     }
+    .animacion{
+        color: purple;
+        font-size: 10px;
+        text-align: center;
+    }
     body p{
         font-size: 25px;
         text-align: center;
@@ -151,28 +156,58 @@ body h3{
     }
     .nombrecompleto{
         font-size: 10px;
+        text-align: center;
+        padding: 10px;
+
     }
     .edad{
         font-size: 10px;
+        text-align: center;
+        padding: 10px;
+
     }
     .provincia{
         font-size: 10px;
+        text-align: center;
+
     }
     .ciudad{
         font-size: 10px;
+        text-align: center;
+        padding: 10px;
+
     }
     .email{
         font-size: 10px;
+        text-align: center;
+        padding: 10px;
+
     }
     .numero{
         font-size: 10px;
+        text-align: center;
+        padding: 10px;
+
     }
     .asunto{
         font-size: 10px;
+        text-align: center;
+        padding: 10px;
+
     }
     .mensaje{
         font-size: 10px;
+        text-align: center;
+        padding: 10px;
     }  
+    .boton{
+        text-align: center;
+    }
+    .mapa{
+        
+        margin: 30px;
+        padding: 10px;
+    }
 }
     
 }
