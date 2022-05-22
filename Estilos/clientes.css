@@ -31,7 +31,9 @@ width: 100px;
     color: purple;
     text-decoration: none;
 }
-
+a:hover{
+    color: red; 
+}
 .titulo {
     text-decoration-line: underline;
     font-size: 20px;

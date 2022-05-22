@@ -61,6 +61,48 @@ body h3{
     text-align: center;
 }
 
+.nombrecompleto{
+    padding: 10px;
+
+}
+.edad{
+    padding: 10px;
+}
+.provincia{
+    padding: 10px;
+}
+.ciudad{
+    padding: 10px;
+}
+.email{
+    padding: 10px;
+
+}
+.numero{
+    padding: 10px;
+}
+.asunto{
+    padding: 10px;
+}
+.mensaje{
+   
+    padding: 10px;
+}  
+.boton{
+    text-align: center;
+}
+.mapa{
+    margin: 50px;
+    padding: 50px;
+}
+
+input:focus {
+    color: black;
+    background-color: cornflowerblue;
+  }
+a:hover{
+    color: red; 
+}
 .footer{
     background-color: #000;
     color: #fff;
@@ -117,7 +159,10 @@ body h3{
     .header{
         flex-direction: column;
     }
-    
+    input:focus {
+        color: red;
+      }
+
 @media screen and (max-width:600px) {
       
     .nav{

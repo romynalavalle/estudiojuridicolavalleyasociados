@@ -86,6 +86,9 @@ main section p{
     color: purple;
     text-decoration: none;
 }
+a:hover{
+    color: red; 
+}
 
 .alinear-centro{
     text-align: center;

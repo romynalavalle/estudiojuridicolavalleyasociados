@@ -78,9 +78,7 @@ height: 100px;
 width: 100px;
 }
 
-.header__menu{
-    display: none;
-}
+
 .nav__lista{
     list-style: none;
     display: flex;
@@ -93,7 +91,9 @@ width: 100px;
     color: purple;
     text-decoration: none;
 }
-
+a:hover{
+    color: red; 
+}
 .section3{
     margin: 30px;
     padding: 15px;
