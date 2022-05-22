@@ -102,6 +102,12 @@ a:hover{
     justify-content: space-between;
     align-items: center;
 }
+#iconos{
+    font-size: 30px;
+    padding: 0 8px;
+    color: #f3f3f3;
+    text-align: left;
+}
 
 .animacion{
     object-fit: cover;
