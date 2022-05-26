@@ -1,0 +1,40 @@
+
+.centrar {
+    text-align: center;
+}
+    
+.border{
+border: 5px solid green;
+}
+
+.rounder{
+border-radius: 30px;
+}
+
+.texto-justificado{
+    text-align: justify;
+}
+.parent{
+    text-align: center;
+}
+
+.whatsApp{
+background-color: green;
+color: white;
+text-decoration: none;
+padding: 0.5rem 1rem;
+display: inline-block;
+bottom: 2rem;
+right: 2rem;
+}
+
+a:hover{
+    color: red; 
+}
+
+#iconos{
+    font-size: 30px;
+    padding: 0 8px;
+    color: #f3f3f3;
+    text-align: left;
+}

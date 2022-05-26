@@ -1,0 +1,36 @@
+.header{
+    background-color: white;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    &__marca{
+        width: 130px;
+        right: 32px;
+    }
+
+    &__logo{
+        height: 100px;
+        width: 100px;
+        }
+}
+.nav {
+    padding: 1rem;
+
+    &__lista{
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    
+        gap: 16px;
+    }
+    &__enlace{
+        color: purple;
+        text-decoration: none;
+    }
+  }
+  
+
