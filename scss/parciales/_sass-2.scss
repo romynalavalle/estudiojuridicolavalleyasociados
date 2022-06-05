@@ -22,7 +22,7 @@ $redes: (
     
 )
 
-@each $clave, $valor in $redes {
+@each $clave, $valor in $redes{
     .btn-#{$clave}{
         background-color: $valor;
      }
