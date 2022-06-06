@@ -1,55 +1,214 @@
-@media screen and (max-width: 1023px){
+
+  @media screen and (max-width: 1023px){
     .header{
         flex-direction: column;
     }
-    
-@media screen and (max-width:600px) {
-      
+    input:focus {
+        color: red;
+    }
+}
+
+  @media screen and (max-width: 600px) {
     .nav{
         display: flex ;
         flex-direction: column;
-    }
+        }
     .header{
         width: auto;
         background-color: aqua;
-    }
+        }
     .nav__lista{
         list-style: none;
         flex-direction: column;
         display: flex;
+        }
+    /* inicio */
+
+    .section_titulo {
+        font-size: 15px;
+      }
+    .section__subtitulo {
+        font-size: 10px;
+      }
+    .section__subtitulo2 {
+        font-size: 15px;
+      }
+      /* sobre el estudio */
+    .section1{
+        color: indigo;
     }
-    .section_titulo{
-     font-size: 15px;
-    }   
-    .section__subtitulo{
-     font-size: 10px;
+    .section1__titulo{
+        font-size: 15px;
     }
-    .section__subtitulo2{
-     font-size: 15px;
-    }
-   
-    .flex{
-        display: flex ;
-        flex-direction: row;
-    }
-    .flex__hijo{
-        width: 50px;
-        height: 50px;
-    }
-    .flex__hijo1{
+    .section1__subtitulo{
+        font-size: 20px;
         color: darkblue;
+    }
+    .section1__parrafo{
         font-size: 10px;
-        justify-items: center;
-        
+        text-align: justify;
+        padding: 2px;
+        border: 10px;
     }
-    .flex__hijo2{
-        color: black;
-        font-size: 9px;
+    .section2__titulo{
+        font-size: 20px;
     }
-    .flex__hijo4{
-        color: black;
+
+    .section2__parrafo{
         font-size: 10px;
+        text-align: justify;
+        padding: 2px;
+        border: 10px;
+
     }
+    .section3__titulo{
+        font-size: 20px;
+    }
+    .section3__parrafo{
+        font-size: 10px;
+        text-align: justify;
+        padding: 2px;
+        padding: 2px;
+    }
+    .section4__titulo{
+        font-size: 20px;
+    }
+    .section4__parrafo{
+        font-size: 10px;
+        text-align: justify;
+        padding: 2px;
+        padding: 2px;
+    }
+    /* servicios */
+
+    main div h2{
+        color: $color-principal;
+        font-size: 15px;
     }
     
+    main div p{
+        font-size: 10px;
+        margin: 15px;
+        padding: 10px;
+        text-align: justify;
+    }
+    .centrar{
+        font-size: 10px;
+    }
+    .animacion1{
+        font-size: 20px;
+        color: red;
+    }
+    /* clientes */
+
+    .titulo{
+        color: purple;
+        text-align: center;
+        font-size: 10px;
+    }
+    .grid{
+        display: grid;
+        border: 1px solid #555;
+        padding: 10px;
+        min-height: 100px;
+        max-width: 300px;
+        margin: auto;
+     
+        grid-template-columns: 15% 20% 15%;
+        grid-template-columns: repeat(3,50px);
+  
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(3, 1fr);
+  
+        grid-template-rows: 100px 200px 100px;
+        grid-template-rows: 25% 25% 100px;
+        grid-template-rows: 1fr 2fr 1fr;
+        grid-template-rows: 150px 200px 150px;
+  
+        grid-template-areas: "ele1 ele2 ele2" "ele3 ele3 ele4" "ele5 ele6 ele4";
+  
+        justify-items: stretch;
+        align-content: stretch;
+  
+        justify-content: flex-start;
+        align-content: flex-start;
+  
+        column-gap: 10px;
+        row-gap: 15px;
+        gap:  5px 15px;
+        gap: 10px;
+    }
+    /* contacto */
+    body h1{
+        color: rgb(51, 6, 6);
+        font-size: 15px;
+        text-align: center;
+    }
+
+    body h2{
+        color: #000;
+        font-size: 17px;
+        text-align: center;
+    }
+    .animacion2{
+        color: purple;
+        font-size: 15px;
+        text-align: center;
+    }
+    body p{
+        font-size: 25px;
+        text-align: center;
+        padding: 5px;
+    }
+    .nombrecompleto{
+        font-size: 10px;
+        text-align: center;
+        padding: 5px;
+    }
+    .edad{
+        font-size: 10px;
+        text-align: center;
+        padding: 5px;
+    }
+    .provincia{
+        font-size: 10px;
+        text-align: center;
+    }
+    .ciudad{
+        font-size: 10px;
+        text-align: center;
+        padding: 5px;
+    }
+    .email{
+        font-size: 10px;
+        text-align: center;
+        padding: 5px;
+    }
+    .numero{
+        font-size: 10px;
+        text-align: center;
+        padding: 5px;
+    }
+    .asunto{
+        font-size: 10px;
+        text-align: center;
+        padding: 5px;
+    }
+    .mensaje{
+        font-size: 10px;
+        text-align: center;
+        padding: 10px;
+    }  
+    .caja-mensaje{
+        padding:20px;
+        margin-top: auto;
+    }
+    .boton{
+        text-align: center;
+    }
+    .mapa{
+        
+        margin: 30px;
+        padding: 10px;
+    }
 }

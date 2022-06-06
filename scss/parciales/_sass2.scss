@@ -1,0 +1,37 @@
+
+$redes: (
+    twitter: #55acee,
+    facebook: #3a5795,
+    instagram:#C25E30,
+);
+
+@each $clave, $valor in $redes {
+    .btn-#{$clave} {
+        background-color: $valor;
+    }
+}
+
+.section2 {
+  margin: 30px;
+  padding: 15px;
+  border: 5px solid black;
+}
+.section2--section3{
+    @extend .section2;
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+}
+
+@mixin sizes ($height, $width) {
+    height: $height;
+    width: $width;
+}
+
+.box-small{
+    @include sizes(100px, 100px )
+}
+
+.box-medium {
+    @include sizes(200px, 200px)
+}

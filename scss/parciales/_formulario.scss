@@ -1,0 +1,35 @@
+
+.edad{
+    padding: $padding-formulario;
+}
+.provincia{
+    padding: $padding-formulario;
+}
+.ciudad{
+    padding: $padding-formulario;
+}
+.email{
+    padding: $padding-formulario;
+}
+.numero{
+    padding: $padding-formulario;
+}
+.asunto{
+    padding: $padding-formulario;
+}
+.mensaje{
+   
+    padding: $padding-formulario;
+}  
+.boton{
+    text-align: center;
+}
+.mapa{
+    margin: 50px;
+    padding: 50px;
+}
+
+input:focus {
+    color: black;
+    background-color: cornflowerblue;
+  }

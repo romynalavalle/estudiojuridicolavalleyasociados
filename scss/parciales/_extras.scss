@@ -1,40 +1,118 @@
 
-.centrar {
+  .border {
+    border: 5px solid $color-principal;
+  }
+
+  .rounder {
+    border-radius: 30px;
+  }
+
+  .centrar {
     text-align: center;
-}
-    
-.border{
-border: 5px solid green;
-}
+  }  
 
-.rounder{
-border-radius: 30px;
-}
-
-.texto-justificado{
+  .texto-justificado {
     text-align: justify;
+  }
+  
+  .parent {
+    text-align: center;
+  }
+
+  .container{
+    text-align: center;
+  }
+
+  .whatsApp {
+    background-color: $color-principal;
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    display: inline-block;
+    bottom: 2rem;
+    right: 2rem;
+  }
+  
+  .imagen-caja{
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+  main section p{
+    color: black;
+    font-weight: normal;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    margin: 30px;
+    padding: 30px;
+
+  }
+  .alinear-centro{
+  text-align: center;
+  }
+
+  main div h2{
+    color: brown ;
+    font-size: 25px;
+  }
+
+  main div p{
+  font-weight: normal;
+  text-decoration: none;
+  text-align: center;
+  font-size: 20px;
+  margin: 15px;
+  padding: 20px;
+  }
+  .rounded1{
+   border-radius: 30px;
 }
-.parent{
+
+.border1{
+    border: 5px solid grey;
+}
+
+.izquierda{
+    text-align: left;
+}
+
+.derecha{
+    text-align: right;
+}
+
+.alinear-centro{
     text-align: center;
 }
 
-.whatsApp{
-background-color: green;
-color: white;
-text-decoration: none;
-padding: 0.5rem 1rem;
-display: inline-block;
-bottom: 2rem;
-right: 2rem;
+.titulo {
+    text-decoration-line: underline;
+    font-size: 20px;
+    color: blue;
+    text-align: center;
 }
-
-a:hover{
-    color: red; 
-}
-
-#iconos{
+.margenes{
+    color: #000;
+    background-color: rgba(168, 162, 162, 0.945);
+    border: rgb(58, 10, 10) solid;
+    word-spacing: 10px;
+    letter-spacing: normal;
+    line-height: 60px;
+    margin-top: 50px;
+    margin-right: 500px;
+    margin-bottom: 20px;
+    margin-left: 500px;
     font-size: 30px;
-    padding: 0 8px;
-    color: #f3f3f3;
-    text-align: left;
+}
+body p{
+    text-decoration-line: underline;
+    font-size: 25px;
+}
+
+body h3{
+    font-size: 25px;
+    color: red;
+}
+
+  .nombrecompleto{
+   padding: 10px;
 }

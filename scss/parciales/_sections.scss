@@ -1,0 +1,92 @@
+.section_titulo {
+    color: $color-section;
+    font-weight: bold;
+    font-size: 43px;
+  }
+  
+  .section__subtitulo {
+    color: darkslategrey;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  .section__subtitulo2 {
+    color: #021802;
+    font-weight: bold;
+    font-size: 40px;
+  }
+  
+  .section__imagen {
+    text-align: center;
+  }
+  
+  .section2 {
+    margin: 30px;
+    padding: 15px;
+    border: 5px solid $color-section;
+  }
+
+  .section3 {
+    margin: 30px;
+    padding: 15px;
+    border: 5px solid $color-section;
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+  }
+
+  .section1__enlace {
+    text-decoration: none;
+    background-color: $color-section;
+    color: white;
+  }  
+  .section1{
+    color: $color-section;
+    font-weight: bold;
+    font-size: 20px; 
+    margin: auto;
+    padding: 25px;
+  }
+
+  .section1{
+    color: $color-section;
+    font-weight: bold;
+    font-size: 20px; 
+    margin: auto;
+    padding: 25px;
+  }
+
+  .section1__titulo{
+    color: $color-section;
+  }
+
+ .section1__subtitulo{
+    color: $color-section;
+  }
+
+  .section1__parrafo{
+    color: $color-section;
+    font-weight: bold;
+    font-size: 23px; 
+} 
+
+  .section2__titulo{
+    color: $color-section234;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+   .section3__titulo{
+    color: $color-section234;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+  
+  .section4__titulo{
+    color: $color-section234;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;  
+}

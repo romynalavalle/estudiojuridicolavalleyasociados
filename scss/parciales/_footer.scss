@@ -1,9 +1,15 @@
-.footer{
-    background-color: $color-principal;
+.footer {
+    background-color: black;
     color: #fff;
     padding: 1rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-}
+  }
+  #iconos {
+    font-size: 30px;
+    padding: 0 8px;
+    color: #f3f3f3;
+    text-align: left;
+  }
