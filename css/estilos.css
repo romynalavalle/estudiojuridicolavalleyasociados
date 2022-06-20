@@ -60,35 +60,28 @@ body {
   width: 100px;
 }
 
-.nav{
+.nav {
   padding: 1rem;
-  margin-right: 1000px;
-  margin-left: 50px;
-  position: static;
 }
 
 .nav__lista {
   list-style: none;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  gap: 100px;
+  justify-content: space-around;
+  gap: 16px;
 }
 
 .nav-link {
-  color: black;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
   text-decoration: none;
-  text-align: justify;
-  position: relative;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  margin: 20px;
 }
-.nav-link:hover{
-  color: red;
-}
- 
-.nav__item{
-  margin-left: 16px;
- 
+
+.nav-link:hover {
+  color: blue;
 }
 
 .section_titulo {
@@ -591,44 +584,17 @@ input:focus {
 @media screen and (max-width: 600px) {
   .nav {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
   }
   .header {
     width: auto;
-    background-color: black;
-  }
-
-  .header__open{
-    display: block;
-  }
-
-  .header__logo{
-    text-align: left;
+    background-color: plum;
   }
   .nav__lista {
     list-style: none;
     flex-direction: column;
     display: flex;
-    color: purple;
   }
-
-  #lateral{
-    display: block;
-    background-color: rgba(168, 162, 162, 0.945);
-    width: 80%;
-    height: 100vh;
-    position: fixed;
-    top: 0;
-    right:-100%;
-    z-index: 100;
-    transition: right 1s;
-  }
-  #lateral:target{
-    right: 0;
-  }
-
-
-
   /* inicio */
   .section_titulo {
     font-size: 15px;
@@ -735,7 +701,7 @@ input:focus {
   /* contacto */
   body h1 {
     color: #330606;
-    font-size: 15px;
+    font-size: 20px;
     text-align: center;
   }
   body h2 {
@@ -745,7 +711,7 @@ input:focus {
   }
   .animacion2 {
     color: purple;
-    font-size: 15px;
+    font-size: 20px;
     text-align: center;
   }
   body p {
@@ -754,41 +720,49 @@ input:focus {
     padding: 5px;
   }
   .nombrecompleto {
-    font-size: 10px;
+    font-size: 15px;
+    font-weight: bold;
     text-align: center;
     padding: 5px;
   }
   .edad {
-    font-size: 10px;
+    font-size: 15px;
+    font-weight: bold;
     text-align: center;
     padding: 5px;
   }
   .provincia {
-    font-size: 10px;
+    font-size: 15px;
+    font-weight: bold;
     text-align: center;
   }
   .ciudad {
-    font-size: 10px;
+    font-size: 15px;
+    font-weight: bold;
     text-align: center;
     padding: 5px;
   }
   .email {
-    font-size: 10px;
+    font-size: 15px;
+    font-weight: bold;
     text-align: center;
     padding: 5px;
   }
   .numero {
-    font-size: 10px;
+    font-size: 15px;
+    font-weight: bold;
     text-align: center;
     padding: 5px;
   }
   .asunto {
-    font-size: 10px;
+    font-size: 15px;
+    font-weight: bold;
     text-align: center;
     padding: 5px;
   }
   .mensaje {
-    font-size: 10px;
+    font-size: 15px;
+    font-weight: bold;
     text-align: center;
     padding: 10px;
   }
@@ -800,8 +774,16 @@ input:focus {
     text-align: center;
   }
   .mapa {
+    display: none;
     margin: 30px;
     padding: 10px;
+  }
+  .margenes {
+    border: none;
+    margin-top: 50px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+    margin-left: 100px;
   }
 }
 /*# sourceMappingURL=estilos.css.map */

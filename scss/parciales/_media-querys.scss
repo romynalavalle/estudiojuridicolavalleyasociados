@@ -15,7 +15,7 @@
         }
     .header{
         width: auto;
-        background-color: aqua;
+        background-color: plum;
         }
     .nav__lista{
         list-style: none;
@@ -139,76 +139,92 @@
         gap: 10px;
     }
     /* contacto */
-    body h1{
-        color: rgb(51, 6, 6);
-        font-size: 15px;
+    body h1 {
+        color: #330606;
+        font-size: 20px;
         text-align: center;
-    }
-
-    body h2{
+      }
+      body h2 {
         color: #000;
         font-size: 17px;
         text-align: center;
-    }
-    .animacion2{
+      }
+      
+      .animacion2 {
         color: purple;
-        font-size: 15px;
+        font-size: 20px;
         text-align: center;
-    }
-    body p{
+      }
+      body p {
         font-size: 25px;
         text-align: center;
         padding: 5px;
-    }
-    .nombrecompleto{
-        font-size: 10px;
+      }
+      .nombrecompleto {
+        font-size: 15px;
+        font-weight: bold;
         text-align: center;
         padding: 5px;
-    }
-    .edad{
-        font-size: 10px;
+        
+      }
+      .edad {
+        font-size: 15px;
+        font-weight: bold;
         text-align: center;
         padding: 5px;
-    }
-    .provincia{
-        font-size: 10px;
+      }
+      .provincia {
+        font-size: 15px;
+        font-weight: bold;
         text-align: center;
-    }
-    .ciudad{
-        font-size: 10px;
-        text-align: center;
-        padding: 5px;
-    }
-    .email{
-        font-size: 10px;
+      }
+      .ciudad {
+        font-size: 15px;
+        font-weight: bold;
         text-align: center;
         padding: 5px;
-    }
-    .numero{
-        font-size: 10px;
+      }
+      .email {
+        font-size: 15px;
+        font-weight: bold;
         text-align: center;
         padding: 5px;
-    }
-    .asunto{
-        font-size: 10px;
+      }
+      .numero {
+        font-size: 15px;
+        font-weight: bold;
         text-align: center;
         padding: 5px;
-    }
-    .mensaje{
-        font-size: 10px;
+      }
+      .asunto {
+        font-size: 15px;
+        font-weight: bold;
+        text-align: center;
+        padding: 5px;
+      }
+      .mensaje {
+        font-size: 15px;
+        font-weight: bold;
         text-align: center;
         padding: 10px;
-    }  
-    .caja-mensaje{
-        padding:20px;
+      }
+      .caja-mensaje {
+        padding: 20px;
         margin-top: auto;
-    }
-    .boton{
+      }
+      .boton {
         text-align: center;
-    }
-    .mapa{
-        
+      }
+      .mapa {
+        display: none;
         margin: 30px;
         padding: 10px;
-    }
+      }
+      .margenes{
+        border: none;
+        margin-top: 50px;
+        margin-right: 100px;
+        margin-bottom: 50px;
+        margin-left: 100px;
+      }
 }
